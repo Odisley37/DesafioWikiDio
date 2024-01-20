@@ -5,12 +5,32 @@ body, html {
 }
 ul { list-style: none; padding-left: 5px; }
 a { color:blue; text-decoration: none;}
+p{
+    text-align: justify;
+}
+#container{
+    display: inline;
+    flex-direction: row;
+}
+
+header h1{
+    margin: 0;
+    
+}
 .bar {
     background-color: #f9f9fb;
     padding:15px;
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
+    
+    
 }
+.bar li {
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
 .content {
     max-width: 1440px;
     margin: auto;
